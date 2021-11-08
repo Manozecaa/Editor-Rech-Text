@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Editor de Texto</title>
+  </head>
+  <body>
+    <div class="conteudo">
+      <div class="box_botoes"><!--Botoes de edicao de texto inicio-->
+        <button type="button" class="btn" data-element="bold">
+          <i class='bx bx-bold'></i>
+        </button>
+        <button type="button" class="btn" data-element="italic">
+          <i class='bx bx-italic' ></i>
+        </button>
+        <button type="button" class="btn" data-element="underline">
+          <i class='bx bx-underline' ></i>
+        </button>
+        <button type="button" class="btn" data-element="insertUnorderedList">
+          <i class='bx bx-list-ul' ></i>
+        </button>
+        <button type="button" class="btn" data-element="insertOrderedList">
+          <i class='bx bx-list-ol' ></i>
+        </button>
+        <button type="button" class="btn" data-element="createLink">
+          <i class='bx bx-link' ></i>
+        </button>
+        <button type="button" class="btn" data-element="justifyLeft">
+          <i class='bx bx-align-left' ></i>
+        </button>
+        <button type="button" class="btn" data-element="justifyCenter">
+          <i class='bx bx-align-middle'></i>
+        </button>
+        <button type="button" class="btn" data-element="justifyRight">
+          <i class='bx bx-align-right'></i>
+        </button>
+        <button type="button" class="btn" data-element="justifyFull">
+          <i class='bx bx-align-justify' ></i>
+        </button>
+        <button type="button" class="btn" data-element="insertImage">
+          <i class='bx bx-image'></i>
+        </button>
+      </div><!--Botoes de edicao de texto fim-->
+
+      <div class="texto" contenteditable="true"><!--Comeco da caixa de texto-->
+
+      </div><!--Fim da caixa de texto-->
+
+    </div>
+    <script src="JS.js"></script>
+  </body>
+</html>
